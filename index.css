@@ -14,6 +14,9 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+.pengumuman {
+  margin: 15px;
+}
 
 header {
   width: 100%;
@@ -127,7 +130,3 @@ header {
   }
 }
 
-#pengumuman {
-  position: relative;
-  margin: 15px;
-}
