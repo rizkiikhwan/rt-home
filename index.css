@@ -33,12 +33,17 @@ header {
   font-size: 28px;
   font-weight: bold;
   color: #fefefe;
+  display:inline-block;
 }
 
-.top-text{
+.logo2 {
   position: relative;
-  top: -15px;
-  left: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fefefe;
+  display:inline-block;
+  padding-top: 22px;
+  vertical-align: top;
 }
 
 .hamburger {
@@ -64,7 +69,7 @@ header {
   background: #fefefe;
 }
 
-.nav-bar ul li a:active {
+.nav-bar ul li a.active {
   color: #11101b;
   background: #fefefe;
 }
@@ -75,13 +80,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 1100px) {
-  header {
-    padding: 0 30px;
-  }
-}
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1220px) {
   
   .hamburger {
     display: block;
@@ -130,12 +129,30 @@ header {
 }
 
 .pengumuman1 {
+  margin-top: 130px;
+  margin-left: 200px;
+  display: inline-block;
+  max-width: 500px;
   text-align: justify;
-  border-width: 2px;
-  border-color: rgb(21, 28, 208);
-  border-style: solid;
-  padding: 15px;
-  border-left: none;
   box-shadow: 5px 5px 20px rgb(44, 20, 226);
 }
+
+.pengumuman2 {  
+  margin-top: 130px;
+  margin-left: 80px;
+  display: inline-block;
+  max-width: 500px;
+  text-align: justify;
+  box-shadow: 5px 5px 20px rgb(44, 20, 226);
+}
+
+.pengumuman3 {  
+  margin-top: 80px;
+  margin-left: 200px;
+  display: inline-block;
+  max-width: 500px;
+  text-align: justify;
+  box-shadow: 5px 5px 20px rgb(44, 20, 226);
+}
+
 
