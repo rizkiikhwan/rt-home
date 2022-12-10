@@ -126,6 +126,10 @@ header {
   .nav-bar ul li a {
     margin-bottom: 12px;
   }
+
+  .pengumuman {
+    width: 30px;
+  }
 }
 
 .pengumuman1 {
