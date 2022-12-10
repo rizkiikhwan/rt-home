@@ -13,10 +13,6 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 6000px;
-}
-.pengumuman {
-  margin: 15px;
 }
 
 header {
@@ -68,7 +64,7 @@ header {
   background: #fefefe;
 }
 
-.nav-bar ul li a.active {
+.nav-bar ul li a:active {
   color: #11101b;
   background: #fefefe;
 }
@@ -91,14 +87,14 @@ header {
     display: block;
     cursor: pointer;
   }
-
+  
   .hamburger .line {
     width: 30px;
     height: 3px;
     background: #fefefe;
     margin: 6px 0;
   }
-
+  
   .nav-bar {
     height: 0;
     position: absolute;
@@ -110,11 +106,11 @@ header {
     transition: 0.2s;
     overflow: hidden;
   }
-
+  
   .nav-bar.active {
     height: 450px;
   }
-
+  
   .nav-bar ul {
     display: block;
     width: fit-content;
@@ -123,13 +119,28 @@ header {
     transition: 0.5s;
     opacity: 0;
   }
-
+  
   .nav-bar.active ul {
     opacity: 1;
   }
-
+  
   .nav-bar ul li a {
     margin-bottom: 12px;
   }
+}
+
+.pengumuman1 {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  top: 100px;
+  left: 840px;
+  text-align: justify;
+  border-width: 2px;
+  border-color: rgb(21, 28, 208);
+  border-style: solid;
+  padding: 15px;
+  border-left: none;
+  box-shadow: 5px 5px 20px rgb(44, 20, 226);
 }
 
