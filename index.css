@@ -130,11 +130,6 @@ header {
 }
 
 .pengumuman1 {
-  position: relative;
-  width: 500px;
-  height: 500px;
-  top: 100px;
-  left: 840px;
   text-align: justify;
   border-width: 2px;
   border-color: rgb(21, 28, 208);
