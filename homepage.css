@@ -1,0 +1,58 @@
+.text-position {
+  display: inline-block;
+  margin-top: 140px;
+  margin-left: 80px;
+  font-weight: bold;
+  font-size: 45px;
+  max-width: 450px;
+}
+
+.register a{
+  border: 2px #2678F3 solid;
+  color: #2678F3;
+  display: flex;
+  width: 130px;
+  margin-left: 80px;
+  margin-top: 30px;
+  justify-content: center;
+  padding: 8px 5px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.register a:hover {
+  background-color: #9acaed;
+  color: #3147F3;
+  transition: 0.3s;
+}
+
+.blue-bottom {
+  position: absolute;
+  left: 1002px;
+  bottom: 0;
+}
+
+.bigger {
+  position: relative;
+  left: 192px;
+  top: 195px;
+}
+
+.smaller {
+  position: relative;
+  left: 320px;
+  top: 4px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
