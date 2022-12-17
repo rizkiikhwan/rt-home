@@ -1,0 +1,35 @@
+.content {
+  display:inline-block;
+  width: 65%;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+.top-content h2{
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.main-content {
+  margin-bottom: 25px;
+}
+
+.date {
+  display: inline-block;
+  color: #3147F3;
+  padding: 5px;
+}
+
+.title {
+  background-color: #959595;
+  padding: 10px 16px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.text p{
+  background-color: #D9D9D9;
+  padding: 10px 50px 10px 16px;
+  font-size: 20px;
+}
