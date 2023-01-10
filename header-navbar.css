@@ -76,16 +76,11 @@
   width: 180px;
 }
 
-.navbar-logout-logo {
-  padding: 13px 25px;
-  background: #3147F3;
-  border-radius: 12px;
-  color: white;
+.navbar-logo-right {
+  
 }
 
-.navbar-logout-logo:hover {
-  background: #3148f3c9;
-  color: white;
+.navbar-logo-right:hover {
   border-radius: 12px;
   transition: 0.4s;
 }
