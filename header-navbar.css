@@ -73,7 +73,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 180px;
+  width: 80px;
 }
 
 .navbar-logo-right {
@@ -83,4 +83,8 @@
 .navbar-logo-right:hover {
   border-radius: 12px;
   transition: 0.4s;
+}
+
+.user-icon {
+  color: #0e19f4cf;
 }
