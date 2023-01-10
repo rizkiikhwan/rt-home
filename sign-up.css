@@ -138,3 +138,10 @@
   font-size: 18px;
   color: white;
 }
+
+.back a{
+  color: #0022ff;
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+}
